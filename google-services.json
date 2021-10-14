@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "287637939319",
+    "project_id": "aplikasi-oleh-oleh-5b9a0",
+    "storage_bucket": "aplikasi-oleh-oleh-5b9a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287637939319:android:276b8b26d3b5b5a83c5272",
+        "android_client_info": {
+          "package_name": "com.demanganesia.oleh_oleh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287637939319-k5rgf8e088h4r1kvss7g58h096kkg5j2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demanganesia.oleh_oleh",
+            "certificate_hash": "ef6ac906f49e6f3a60a75968ac9a8d8257a970e5"
+          }
+        },
+        {
+          "client_id": "287637939319-b73fc0q9atha1mi4iu5n0oemse4uesbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuk4XbybChQiPgE4KYpjPOJ6zdG-1iM1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287637939319-b73fc0q9atha1mi4iu5n0oemse4uesbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
