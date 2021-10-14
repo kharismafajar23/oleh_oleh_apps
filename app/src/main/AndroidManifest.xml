@@ -15,8 +15,8 @@
         <activity android:name=".FormPembelianActivity"></activity>
         <activity android:name=".DetailActivity" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".KategoriActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".KategoriActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
