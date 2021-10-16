@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MakananActivity"
+    tools:context=".JenisMakanan"
     android:background="@drawable/bg_act">
 
     <LinearLayout
@@ -54,25 +54,25 @@
             android:id="@+id/btnBakpia"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/bakpia"/>
+            android:src="@drawable/bakpia75"/>
 
         <ImageView
             android:id="@+id/btnGudeg"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/gudeg"/>
+            android:src="@drawable/bakpia11"/>
 
         <ImageView
             android:id="@+id/btnKeripik"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/keripik"/>
+            android:src="@drawable/bakpia25"/>
 
         <ImageView
             android:id="@+id/btnJamu"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:src="@drawable/jamu"/>
+            android:src="@drawable/bakpia_tugu"/>
 
     </LinearLayout>
 
