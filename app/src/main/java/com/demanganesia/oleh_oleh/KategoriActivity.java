@@ -7,10 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class KategoriActivity extends AppCompatActivity {
 
-    ImageButton makananBtn, minumanBtn, kerajinanBtn, pakaianBtn;
+    ImageView ivMakanan, ivMinuman, ivKerajinan, ivPakaian;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,19 +19,31 @@ public class KategoriActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kategori);
 
-        makananBtn = findViewById(R.id.btnMakanan);
-        minumanBtn = findViewById(R.id.btnMinuman);
-        kerajinanBtn = findViewById(R.id.btnKerajinan);
-        pakaianBtn = findViewById(R.id.btnPakaian);
+        ivMakanan = findViewById(R.id.btnMakanan);
+        ivMinuman = findViewById(R.id.btnMinuman);
+        ivKerajinan = findViewById(R.id.btnKerajinan);
+        ivPakaian = findViewById(R.id.btnPakaian);
 
-        //pindah ke makanan activity
-        makananBtn.setOnClickListener(new View.OnClickListener() {
+        //ke makanan activity
+        ivMakanan.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent keMakanan = new Intent(KategoriActivity.this, MakananActivity.class);
                 startActivity(keMakanan);
-                finish();
             }
         });
+
+        //ke minuman activity
+        ivMinuman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent keMinuman = new Intent(KategoriActivity.this, MinumanActivity.class);
+                startActivity(keMinuman);
+            }
+        });
+
+        //ke kerajinan activity
+
+        //ke pakaian activity
     }
 }

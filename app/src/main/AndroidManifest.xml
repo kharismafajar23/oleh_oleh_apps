@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.demanganesia.oleh_oleh">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +10,8 @@
         android:screenOrientation="landscape"
         android:supportsRtl="true"
         android:theme="@style/Theme.Oleholeh">
-        <activity android:name=".MakananActivity"></activity>
+        <activity android:name=".MinumanActivity"></activity>
+        <activity android:name=".MakananActivity" />
         <activity android:name=".FormPembelianActivity" />
         <activity android:name=".DetailActivity" />
         <activity android:name=".MenuActivity" />
@@ -25,5 +24,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
