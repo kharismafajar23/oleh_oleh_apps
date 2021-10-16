@@ -43,7 +43,20 @@ public class KategoriActivity extends AppCompatActivity {
         });
 
         //ke kerajinan activity
+        ivKerajinan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent keKerajinan = new Intent(KategoriActivity.this, KerajinanActivity.class);
+                startActivity(keKerajinan);
+            }
+        });
 
         //ke pakaian activity
+        ivPakaian.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent kePakaian = new Intent(KategoriActivity.this, PakaianActivity.class);
+            }
+        });
     }
 }

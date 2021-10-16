@@ -4,6 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FormPembelianActivity">
+    tools:context=".FormPembelianActivity"
+    android:background="@drawable/bg_act">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logo_kemenkop"
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_kemenkop" />
+
+        <ImageView
+            android:id="@+id/logo_bumn"
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/logo_bumn" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="251dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="160dp"
+        android:background="@color/putih"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="151dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="144dp"
+        android:background="@color/merah_tua"
+        android:text="Nama"
+        android:textAlignment="center"
+        android:textColor="@color/putih"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/et_nohp"
+        android:layout_width="251dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/putih"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama" />
+
+    <TextView
+        android:id="@+id/tv_nohp"
+        android:layout_width="151dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/merah_tua"
+        android:text="No. HP"
+        android:textAlignment="center"
+        android:textColor="@color/putih"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="251dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/putih"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nohp" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="151dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/merah_tua"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="@color/putih"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nohp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

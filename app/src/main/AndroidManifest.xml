@@ -10,7 +10,9 @@
         android:screenOrientation="landscape"
         android:supportsRtl="true"
         android:theme="@style/Theme.Oleholeh">
-        <activity android:name=".MinumanActivity"></activity>
+        <activity android:name=".KerajinanActivity"></activity>
+        <activity android:name=".PakaianActivity" />
+        <activity android:name=".MinumanActivity" />
         <activity android:name=".MakananActivity" />
         <activity android:name=".FormPembelianActivity" />
         <activity android:name=".DetailActivity" />

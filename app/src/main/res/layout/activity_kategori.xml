@@ -34,7 +34,7 @@
         android:id="@+id/oleh2"
         android:layout_width="330dp"
         android:layout_height="160dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:src="@drawable/oleh"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"
