@@ -7,19 +7,30 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:screenOrientation="landscape"
+
         android:supportsRtl="true"
         android:theme="@style/Theme.Oleholeh">
-        <activity android:name=".JenisMakanan"></activity>
-        <activity android:name=".KerajinanActivity" />
-        <activity android:name=".PakaianActivity" />
-        <activity android:name=".MinumanActivity" />
-        <activity android:name=".MakananActivity" />
-        <activity android:name=".FormPembelianActivity" />
-        <activity android:name=".DetailActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".KategoriActivity">
+        <activity android:name=".JenisMakanan"
+                    android:screenOrientation="landscape"></activity>
+        <activity android:name=".KerajinanActivity"
+                    android:screenOrientation="landscape"/>
+        <activity android:name=".PakaianActivity"
+                    android:screenOrientation="landscape"/>
+        <activity android:name=".MinumanActivity"
+                    android:screenOrientation="landscape"/>
+        <activity android:name=".MakananActivity"
+                    android:screenOrientation="landscape"/>
+        <activity android:name=".FormPembelianActivity"
+                    android:screenOrientation="landscape"/>
+        <activity android:name=".DetailActivity"
+                    android:screenOrientation="landscape"/>
+        <activity android:name=".MenuActivity"
+                    android:screenOrientation="landscape"/>
+        <activity android:name=".MainActivity"
+                    android:screenOrientation="landscape"/>
+        <activity android:name=".KategoriActivity"
+                    android:screenOrientation="landscape">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
