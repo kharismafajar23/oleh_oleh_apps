@@ -56,6 +56,7 @@ public class KategoriActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent kePakaian = new Intent(KategoriActivity.this, PakaianActivity.class);
+                startActivity(kePakaian);
             }
         });
     }
